@@ -1,6 +1,8 @@
-new = []
+waiting_list = ["john", "marry"]
+name = input("Enter name: ")
 
-for i in [1, 2, 3]:
-    new.append(i + 10)
-
-print(new)
+try:
+    number = waiting_list.index(name)
+    print(f"{name}'s turn is {number}")
+except ValueError:
+    print(f"{name} is not in the list.")

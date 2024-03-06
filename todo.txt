@@ -1,7 +1,6 @@
 clean
-ank
-
+update the os
+add a new player
 a new member
-
-
-a new member
+Make soup.
+Make pizza.
