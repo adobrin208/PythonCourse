@@ -1,9 +1,9 @@
-def greet():
-    message = "hello"
+def greet(message):
     new_message = message.capitalize()
     print("hei hei")
     return new_message
 
-greeting = greet()
+user_entry = input("what greeting do you want? ")
+greeting = greet(user_entry)
 
-print(len(greeting))
+print(greeting)
