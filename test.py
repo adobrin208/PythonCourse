@@ -1,4 +1,2 @@
-def get_nr_items(user):
-    items= user.split(',')
-    return len(items)
-
+import math
+rads = math.radians(20)
