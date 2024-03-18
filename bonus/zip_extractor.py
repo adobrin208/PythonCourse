@@ -4,5 +4,6 @@ def extract_archive(archivepath, dest_dir):
     with zipfile.ZipFile(archivepath, 'r') as archive:
         archive.extractall(dest_dir)
 
-    if __name__ == "__main__":
-        extract_archive()
+if __name__ == "__main__":
+    extract_archive("C:\Users\Anca Dobrin\OneDrive\Desktop\Curs_Python\bonus\compressed.zip",
+                    "C:\Users\Anca Dobrin\OneDrive\Desktop\Curs_Python\bonus\files" )
